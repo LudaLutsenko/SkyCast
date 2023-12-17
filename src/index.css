@@ -9,3 +9,10 @@ body {
 p {
   text-align: center;
 }
+li{
+  list-style-type: none;
+}
+h3{
+  font-size: 30px;
+  color: blue;
+}
