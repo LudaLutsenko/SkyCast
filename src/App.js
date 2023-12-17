@@ -2,21 +2,21 @@ import React from "react";
 import "./App.css";
 import Weather from "./Weather";
 
-function App() {
+export default function App() {
   return (
     <div className="Weather">
+      <h1>Weather Search</h1>
       <div className="container">
-        <Weather/>
+        <Weather defaultCity="Kyiv" />
         <footer>
           <p>
-            <a hreff="https://github.com/LudaLutsenko/react-demo"> GitHub repository</a> {""}
-            <br/>
-            Coding by Luda Lutsenko😋
+            <a href="https://https://github.com/LudaLutsenko/react-demo">
+              Coded
+            </a>{" "}
+            by Luda Lutsenko
           </p>
         </footer>
-    </div>
+      </div>
     </div>
   );
 }
-
-export default App;
