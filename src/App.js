@@ -10,7 +10,7 @@ export default function App() {
         <Weather defaultCity="Kyiv" />
         <footer>
           <p>
-            <a href="https://https://github.com/LudaLutsenko/react-demo">
+            <a href="https://github.com/LudaLutsenko/react-demo">
               Coded
             </a>{" "}
             by Luda Lutsenko
