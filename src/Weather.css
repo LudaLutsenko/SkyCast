@@ -1,29 +1,20 @@
-body {
-  font-family: arial, sans-serif;
-}
-
-h1 {
-  color: #f1eeee;
-  font-size: 30px;
-  font-weight: 100;
-  margin: 0;
-  line-height: 28px;
-}
-
 
 .btn {
   border-radius: 20px;
-  color: #b1a3a3;
-  font-size: 20px;
+  color: #b8bde2;
+  font-size: 25px;
   height: 44px;
-  background-color: #a02929;
+  background-color: #180736;
 }
 
 
 .Weathers {
-  border: 1px solid #a4a8b1;
+  background: linear-gradient(2deg, #0a1115, transparent);
+  border: none;
   border-radius: 30px;
-  padding: 10px 40px;
+  padding: 70px 50px;
+  margin: 20px 50px ;
+  box-sizing: border-box;
 }
 
 .WeatherTemperature .temperature {
