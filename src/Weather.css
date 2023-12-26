@@ -1,21 +1,31 @@
-
 .btn {
   border-radius: 20px;
   color: #b8bde2;
   font-size: 25px;
   height: 44px;
   background-color: #180736;
+   cursor: pointer;
 }
 
+.form-control {
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+  background-color: #bbaad7;
+  border-radius: 10px;
+  
+}
 
 .Weathers {
   background: linear-gradient(2deg, #0a1115, transparent);
   border: none;
   border-radius: 30px;
   padding: 70px 50px;
-  margin: 20px 50px ;
+  margin: 0px 50px;
   box-sizing: border-box;
+ 
 }
+
 
 .WeatherTemperature .temperature {
   font-size: 60px;
@@ -26,5 +36,3 @@
   top: -33px;
   position: relative;
 }
-
-

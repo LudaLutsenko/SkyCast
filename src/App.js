@@ -5,8 +5,8 @@ import ReactVideoPlayer from "./ReactVideoPlayer";
 export default function App() {
   return (
     <div className="Weather">
+      <div className="container"> 
       <h1>Weather Search</h1>
-      <div className="container">
         <Weather defaultCity="Kyiv" />
         <ReactVideoPlayer />
         <footer>
